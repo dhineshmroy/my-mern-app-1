@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    background-color: #fff;
+}
+
+.navbar .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #252B42;
+    padding-top: 10px;
+}
+
+.navbar .navigation ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar .navigation ul li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.navbar .user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .user-actions a {
+    padding-left: 20px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.navbar .user-actions {
+    padding-left: 20px;
+    border: none;
+}
+
+.navbar .user-actions ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar .user-actions ul button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.navbar .user-actions ul li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.navbar .user-actions .login-register img, button, span{
+    color: #3498db;
+}

@@ -1,0 +1,51 @@
+.hero {
+    width: 100%;
+    background-color: #2d2f3e;
+    color: #fff;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.hero-top .contact-info {
+    font-size: 14px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-top .contact-info .phone span{
+    color: #fff;
+    padding-left: 10px;
+}
+
+.hero-top .contact-info .email span{
+    color: #fff;
+    padding-left: 3px;
+}
+
+.hero-top .contact-info .email {
+    padding-left: 30px;
+}
+
+.hero-top .contact-info .paragraph p{
+    padding-left: 220px;
+}
+
+.hero-top .contact-info .social-links {
+    padding-left: 200px;
+}
+
+.hero-top .contact-info .social-links span{
+    color: #fff;
+}
+
+.hero-top .contact-info .social-links a{
+    justify-content: space-between;
+    padding-left: 20px;
+}
